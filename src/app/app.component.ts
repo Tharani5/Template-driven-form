@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from './user';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tdf';
+  gender=['Male','Female','Other'];
+  Usermodel = new User('tharani','a@any.com',9876543211,'Male','morning',true);
 }
